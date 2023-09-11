@@ -3,13 +3,12 @@ from AlgorithmImports import *
 # endregion
 
 class FocusedFluorescentPinkBaboon(QCAlgorithm):
-
     def Initialize(self):
-        self.SetStartDate(2022, 3, 10)
-        self.SetCash(100000)
-        self.AddEquity("SPY", Resolution.Minute)
-        self.AddEquity("BND", Resolution.Minute)
-        self.AddEquity("AAPL", Resolution.Minute)
+        self.SetStartDate(2016, 1, 1)
+        self.SetCash(100000) 
+        self.spy = self.AddEquity("SPY", Resolution.Daily).Symbol
+        print("hello")
+
 
     def OnData(self, data: Slice):
         if not self.Portfolio.Invested:
