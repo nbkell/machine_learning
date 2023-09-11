@@ -9,7 +9,6 @@ class FocusedFluorescentPinkBaboon(QCAlgorithm):
         self.spy = self.AddEquity("SPY", Resolution.Daily).Symbol
         print("hello")
 
-
     def OnData(self, data: Slice):
         if not self.Portfolio.Invested:
             self.SetHoldings("SPY", 0.33)
