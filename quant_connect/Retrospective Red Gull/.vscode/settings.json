@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/nat/.lean/lean-cli/lean-cli",
+    "python.languageServer": "Pylance"
+}

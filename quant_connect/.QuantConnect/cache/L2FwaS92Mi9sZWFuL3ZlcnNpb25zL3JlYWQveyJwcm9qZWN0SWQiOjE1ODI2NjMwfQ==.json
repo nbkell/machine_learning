@@ -1,0 +1,33 @@
+{
+    "versions": [
+        {
+            "id": 15832,
+            "sref": "refs/heads/master",
+            "slean": "7e27ab74bb342592f2b9ef0359e7ef9de1d11e1d",
+            "sleancloud": "93022f20442b8b141f3aafe926ce05378b4539b5",
+            "sdescription": "Deprecates IAlgorithmSettings.DataSubscriptionLimit (#7457)* Deprecates IAlgorithmSettings.DataSubscriptionLimitWe will let the brokerage check and notify users that they have subscribed to datafeeds beyond their quota.<br/>* Removes Unit TestAlso remove usage in `EmptyEquityAndOptions400Benchmark`.",
+            "sname": "master",
+            "bpublic": 1,
+            "itimestamp": "2023-09-08 22:44:41",
+            "benchmark_basic": 274669.62794229307,
+            "benchmark_equity_400_minute": 762318.870523416,
+            "benchmark_equity_1_second": 325565.35117056855,
+            "benchmark_cs_indicator": 160359.37711577522,
+            "benchmark_cs_history": 227269.24355777225,
+            "benchmark_cs_schedule_events": 256868.99408284025,
+            "benchmark_py_basic": 175261.57945736434,
+            "benchmark_py_equity_400_minute": 761270.288858322,
+            "benchmark_py_equity_1_second": 234677.0491803279,
+            "benchmark_py_indicator": 32180.693170234455,
+            "benchmark_py_history": 74338.47409220725,
+            "benchmark_py_schedule_events": 163814.56603773584,
+            "benchmark_py_universe_coarsefine": 218600.51890289102,
+            "benchmark_cs_universe_coarsefine": 232912.0508982036,
+            "benchmark_py_universe_stateful": 129339.47967479675,
+            "benchmark_cs_universe_stateful": 229547.47126436784,
+            "benchmark_py_universe_stateless": 200107.0641282565,
+            "benchmark_cs_universe_stateless": 282071.8220338983
+        }
+    ],
+    "success": true
+}

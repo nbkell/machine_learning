@@ -1,0 +1,16 @@
+{
+    "organizations": [
+        {
+            "id": "8df4cc813411bd827a5be6b4b83a18fa",
+            "name": "Nat Kell",
+            "type": "Researcher",
+            "ownerName": "You",
+            "members": 1,
+            "selected": false,
+            "skylightSync": 1,
+            "preferred": true,
+            "profileImage": "https://cdn.quantconnect.com/i/tu/organization-default-icon.png"
+        }
+    ],
+    "success": true
+}
