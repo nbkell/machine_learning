@@ -4,10 +4,9 @@ from AlgorithmImports import *
 
 class FocusedFluorescentPinkBaboon(QCAlgorithm):
     def Initialize(self):
-        self.SetStartDate(2016, 1, 1)
-        self.SetCash(100000) 
+        self.SetStartDate(2023, 6, 1)
+        self.SetCash(5000) 
         self.spy = self.AddEquity("SPY", Resolution.Daily).Symbol
-        print("hello")
 
     def OnData(self, data: Slice):
         if not self.Portfolio.Invested:
