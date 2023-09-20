@@ -37,9 +37,6 @@ class RandomForestAlgo(QCAlgorithm):
             # self.Debug(str(sym)) 
         self.train_df = self.History(self.training_syms, 360*TRAIN_YEARS, Resolution.Daily)
 
-
-        
-        
     def OnSecuritiesChanged(self, changes):
         if not self.training:
             return
