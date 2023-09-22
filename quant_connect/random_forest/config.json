@@ -99,8 +99,34 @@
                 "column": 1,
                 "sort": 81
             }
+        ],
+        "sm": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 6,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 12,
+                "height": 4,
+                "row": 7,
+                "column": 1,
+                "sort": 71
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 12,
+                "height": 5,
+                "row": 11,
+                "column": 1,
+                "sort": 111
+            }
         ]
     },
     "python-venv": 1,
-    "uptime": 1576
+    "uptime": 2361
 }
