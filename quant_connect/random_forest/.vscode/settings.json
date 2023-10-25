@@ -1,5 +1,4 @@
 {
     "python.pythonPath": "/Users/nat/.lean/lean-cli/lean-cli",
-    "python.languageServer": "Pylance",
-    "files.autoSave": "afterDelay"
+    "python.languageServer": "Pylance"
 }
