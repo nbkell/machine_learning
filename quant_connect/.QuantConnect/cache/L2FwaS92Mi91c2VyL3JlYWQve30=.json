@@ -43,6 +43,7 @@
         "preferred_language": "Py",
         "beta_features": 1,
         "redirect": null,
+        "promptCreditCardOnBacktest": false,
         "getStarted": {
             "createProject": true,
             "backtestProject": true,

@@ -4,7 +4,7 @@ import pandas as pd
 from talib import RSI, MACD, NATR, ATR, PPO 
 #endregion
 
-def make_df(history_df, intervals, rf_algo):
+def make_df(history_df, intervals):
     ret_df = history_df
     ret_df = add_returns(history_df, intervals)
     ret_df = add_alpha_signals(ret_df) 
